@@ -8,7 +8,7 @@
     position: relative;
 }
  
- #slides:before {
+#back-button {
  	position: absolute;
  	top: 50%;
  	-webkit-transform: translateY(-50%);
@@ -20,7 +20,7 @@
  	z-index: 1;
  }
 
- #slides:after {
+#forward-button {
  	position: absolute;
  	top: 50%;
  	-webkit-transform: translateY(-50%);
@@ -39,7 +39,9 @@
 
 }
 
-.image .active {
+.active {
 	display: visible;
+	height: 100%;
+	width: 100%;
 }
 
