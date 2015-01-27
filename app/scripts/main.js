@@ -1,1 +1,6 @@
-console.log('\'Allo \'Allo!');
+$(document).ready(function() {
+
+	console.log('Document Ready!');
+
+});
+

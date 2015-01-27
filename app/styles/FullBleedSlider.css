@@ -1,0 +1,26 @@
+#slides {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    color: white;
+    position: relative;
+}
+ 
+ #slides:before {
+ 	position: absolute;
+ 	left: 0;
+ 	content: '\003C';
+ }
+
+ #slides:after {
+ 	position: absolute;
+ 	right: 0;
+ 	content: '\003E';
+ }
+.image {
+    /* More styling code goes in here */
+
+}
+
