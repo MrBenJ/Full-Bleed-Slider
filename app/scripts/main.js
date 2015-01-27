@@ -1,6 +1,11 @@
 $(document).ready(function() {
 
-	console.log('Document Ready!');
+	var images = document.getElementsByClassName('image');
+	var i = 0;
+
+	console.log(images[i]);
+
+
 
 });
 

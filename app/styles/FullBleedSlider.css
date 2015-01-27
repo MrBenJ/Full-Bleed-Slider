@@ -10,17 +10,36 @@
  
  #slides:before {
  	position: absolute;
+ 	top: 50%;
+ 	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+ 	transform: translateY(-50%);
+ 	font-size: 30pt;
  	left: 0;
  	content: '\003C';
+ 	z-index: 1;
  }
 
  #slides:after {
  	position: absolute;
+ 	top: 50%;
+ 	-webkit-transform: translateY(-50%);
+ 	-ms-transform: translateY(-50%);
+ 	transform: translateY(-50%);
+ 	font-size: 30pt;
  	right: 0;
  	content: '\003E';
+ 	z-index: 1;
  }
 .image {
-    /* More styling code goes in here */
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+    display: none;
 
+}
+
+.image .active {
+	display: visible;
 }
 
