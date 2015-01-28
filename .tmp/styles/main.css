@@ -11,4 +11,13 @@ header {
 
 .description {
   color: white;
-  margin-top: 50px; }
+  margin-top: 50px;
+  font-family: 'Helvetica', 'sans-serif';
+  text-align: center;
+  font-size: 24pt; }
+  .description p {
+    margin-bottom: 25px; }
+
+.instructions {
+  background-color: white;
+  color: black; }

@@ -3,20 +3,16 @@
     padding: 0;
     height: 100%;
     width: 100%;
-    background-color: black;
-    color: white;
     position: relative;
 }
  
 #back-button {
- 	position: absolute;
+ 	position: absolute !important;
  	top: 50%;
  	-webkit-transform: translateY(-50%);
 	-ms-transform: translateY(-50%);
  	transform: translateY(-50%);
- 	font-size: 30pt;
  	left: 0;
- 	content: '\003C';
  	z-index: 1;
  }
 
@@ -26,12 +22,10 @@
  	-webkit-transform: translateY(-50%);
  	-ms-transform: translateY(-50%);
  	transform: translateY(-50%);
- 	font-size: 30pt;
  	right: 0;
- 	content: '\003E';
  	z-index: 1;
  }
- 
+
 .image {
     height: 100%;
     width: 100%;
@@ -41,8 +35,9 @@
 }
 
 .active {
-	display: visible;
+	display: block;
 	height: 100%;
 	width: 100%;
+    z-index: 0;
 }
 
